@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prakash Akula | AI & Full-Stack Engineer</title>
+  <meta name="description" content="AI engineer and full-stack developer building LLM-powered products, from data pipelines to polished UIs.">
+  <meta property="og:title" content="Prakash Akula | AI & Full-Stack Engineer">
+  <meta property="og:description" content="LLM-powered products, end to end.">
+  <meta name="theme-color" content="#0b0d12">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a href="#top" class="logo">PA<span>.</span></a>
+    <nav>
+      <a href="#ai">AI</a>
+      <a href="#projects">Projects</a>
+      <a href="#stack">Full-Stack</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="btn small">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <p class="eyebrow mono">&gt; hello, world</p>
+      <h1>I build <span class="grad">AI-powered products</span><br>from model to interface.</h1>
+      <p class="lead">
+        AI engineer and full-stack developer with [X]+ years shipping LLM applications, RAG systems
+        and production web platforms. I connect the intelligence layer to real users.
+      </p>
+      <div class="cta">
+        <a href="#projects" class="btn">See my work</a>
+        <a href="resume.pdf" class="btn ghost">Download résumé</a>
+      </div>
+      <ul class="stats">
+        <li><b data-count="6">0</b><span>years engineering</span></li>
+        <li><b data-count="15">0</b><span>AI features shipped</span></li>
+        <li><b data-count="10">0</b><span>production apps</span></li>
+      </ul>
+    </section>
+
+    <!-- AI EXPERTISE -->
+    <section id="ai" class="container">
+      <h2><span class="mono num">01</span> AI expertise</h2>
+      <p class="sub">What I do with models, beyond calling an API.</p>
+      <div class="grid cards">
+        <article class="card">
+          <h3>LLM applications</h3>
+          <p>Prompt design, structured outputs, tool use and agent workflows with the Claude, OpenAI and open-source model families.</p>
+        </article>
+        <article class="card">
+          <h3>RAG &amp; search</h3>
+          <p>Chunking, embeddings, hybrid retrieval and reranking over vector stores such as pgvector and Pinecone, with citations users can trust.</p>
+        </article>
+        <article class="card">
+          <h3>Evaluation &amp; reliability</h3>
+          <p>Eval harnesses, regression suites, guardrails, latency and cost tuning, so features hold up beyond the demo.</p>
+        </article>
+        <article class="card">
+          <h3>MLOps &amp; data</h3>
+          <p>Pipelines, observability, caching and deployment of inference services, with monitoring for drift and spend.</p>
+        </article>
+      </div>
+      <div class="chips" aria-label="AI tools">
+        <span>Claude API</span><span>OpenAI</span><span>LangChain</span><span>LlamaIndex</span>
+        <span>PyTorch</span><span>Hugging Face</span><span>pgvector</span><span>MCP</span>
+        <span>Agents</span><span>Fine-tuning</span><span>Prompt eng.</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container">
+      <h2><span class="mono num">02</span> Selected projects</h2>
+      <p class="sub">Replace these with your real work. Keep each to problem, approach, result.</p>
+      <div class="grid projects">
+        <article class="project">
+          <span class="tag">AI · RAG</span>
+          <h3>Knowledge Assistant</h3>
+          <p><b>Problem:</b> support teams lost hours searching docs.<br>
+             <b>Built:</b> RAG chat with citations and feedback loop.<br>
+             <b>Result:</b> [e.g. 40% faster resolution].</p>
+          <p class="mono tech">Python · FastAPI · pgvector · Claude · React</p>
+          <div class="links"><a href="#">Live</a><a href="#">Code</a></div>
+        </article>
+        <article class="project">
+          <span class="tag">AI · Agents</span>
+          <h3>Workflow Agent</h3>
+          <p><b>Problem:</b> repetitive multi-step ops tasks.<br>
+             <b>Built:</b> tool-using agent with human approval steps.<br>
+             <b>Result:</b> [e.g. 25 hrs/week saved].</p>
+          <p class="mono tech">TypeScript · Node · MCP · Postgres</p>
+          <div class="links"><a href="#">Live</a><a href="#">Code</a></div>
+        </article>
+        <article class="project">
+          <span class="tag">Full-stack</span>
+          <h3>SaaS Platform</h3>
+          <p><b>Problem:</b> fragmented customer data.<br>
+             <b>Built:</b> multi-tenant dashboard, auth, billing, APIs.<br>
+             <b>Result:</b> [e.g. 5k active users].</p>
+          <p class="mono tech">Next.js · Node · PostgreSQL · AWS</p>
+          <div class="links"><a href="#">Live</a><a href="#">Code</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FULL STACK -->
+    <section id="stack" class="container">
+      <h2><span class="mono num">03</span> Full-stack experience</h2>
+      <p class="sub">I own features across the whole stack.</p>
+      <div class="grid stack">
+        <div class="layer"><h4>Frontend</h4><p>React, Next.js, TypeScript, Tailwind, accessibility, performance</p></div>
+        <div class="layer"><h4>Backend</h4><p>Node.js, Python, FastAPI, REST &amp; GraphQL, queues, auth</p></div>
+        <div class="layer"><h4>Data</h4><p>PostgreSQL, MongoDB, Redis, vector databases, ETL</p></div>
+        <div class="layer"><h4>Cloud &amp; DevOps</h4><p>AWS, Docker, CI/CD, Terraform, observability</p></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="container">
+      <h2><span class="mono num">04</span> Experience</h2>
+      <ol class="timeline">
+        <li>
+          <span class="date mono">2022 – Present</span>
+          <h3>Senior Software Engineer, AI <small>· Company</small></h3>
+          <ul>
+            <li>Led design and launch of LLM features used by [N] customers.</li>
+            <li>Built evaluation and monitoring that cut errors by [X]%.</li>
+            <li>Mentored [N] engineers on AI-assisted development.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="date mono">2019 – 2022</span>
+          <h3>Full-Stack Engineer <small>· Company</small></h3>
+          <ul>
+            <li>Shipped React/Node features end to end for a platform with [N] users.</li>
+            <li>Improved API performance by [X]% and cut cloud cost by [Y]%.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container contact">
+      <h2><span class="mono num">05</span> Let's build something</h2>
+      <p class="sub">Open to AI engineering and full-stack roles, consulting and interesting problems.</p>
+      <div class="cta center">
+        <a class="btn" href="mailto:you@example.com">you@example.com</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/your-handle" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container foot">
+    <span>© <span id="yr"></span> Prakash Akula</span>
+    <span class="mono">built with plain HTML, CSS &amp; JS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
